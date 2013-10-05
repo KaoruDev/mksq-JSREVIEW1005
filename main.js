@@ -1,6 +1,11 @@
 
-var array = [1,"Hello",3,4,5];
 
-for (var i=0; i< array.length; i+=1 ){
-	console.log(array[i]);
+var landMines = [];
+
+var randNum = parseInt(Math.random() * 100, 10) + 1;
+landMines.push(randNum);
+
+for(var i = 0; i < 3; i++){
+	var currentRand = parseInt(Math.random() * 100, 10) + 1;
+	console.log(currentRand)
 }
